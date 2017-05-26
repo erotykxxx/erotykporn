@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.catPorn { 
+	height:auto; 
+	width:33.3%; 
+	text-align:center;
+	float:left;
+	margin-bottom:5px;
+}
+.catPorn a {
+	text-decoration:none;
+	color:black;  
+}
+.catPorn img {
+	-webkit-filter: brightness(90%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+		  width:100%;
+		  height:auto; 
+}
+.catPornTitle { 
+	height:20px; 
+	width:100%; 
+	border-bottom:2px solid #313131;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.catPorn:hover img {
+  -webkit-filter: brightness(115%);
+}
+.catPorn:hover .catPornTitle {
+	border-bottom:2px solid #FF00C6;
+}
