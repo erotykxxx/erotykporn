@@ -30,7 +30,9 @@
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-	 line-height: 0.5;
+}
+.catPornTitle h3 {
+	margin-top:-5px;
 }
 .catPorn:hover img {
   -webkit-filter: brightness(115%);
