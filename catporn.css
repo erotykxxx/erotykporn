@@ -22,7 +22,7 @@
 		  height:auto; 
 }
 .catPornTitle { 
-	height:20px; 
+	height:auto; 
 	width:100%; 
 	border-bottom:2px solid #313131;
 	-webkit-transition: all 1s ease;
@@ -30,9 +30,8 @@
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
-}
-.catPornTitle h3 {
-	margin-top:-5px;
+	font-size:24px;
+	font-weight:bold;
 }
 .catPorn:hover img {
   -webkit-filter: brightness(115%);
